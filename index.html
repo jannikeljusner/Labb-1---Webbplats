@@ -4,23 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startsida</title>
-    <!-- 1. HEAD: Länka in CSS och lägg in favicon här -->
+
+    <!-- Favicon för webbläsarfliken -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <!-- Länk till CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Header-->
-    <nav>
-      <ul>
-        <li><a href="index.html">Startsidan</a></li>
-        <li><a href="bildredigering.html">Bildredigering</a></li>
-        <li><a href="om-mig.html">Om mig</a></li>
-      </ul>
-    </nav>
+    <!-- Sidhuvud med logotyp, navigering och hero-bild -->
+    <header>
+      <img src="images/logo.svg" alt="Webbplatsens logotyp" class="logo" />
 
-    <!-- 3. MAIN:
-     - Skriv en kort beskrivning av uppgiften.
-     - Berätta vilket redigeringsprogram jag använt.
-     - Skapa en container (Flexbox eller Grid) för bildserien. -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="redigering.html">Bildredigering</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+        </ul>
+      </nav>
 
-    <!-- 4. FOOTER: Enkel sidfot -->
+      <img
+        src="images/header.png"
+        alt="Dekorativ headerbild överst på sidan"
+        class="hero"
+      />
+    </header>
+
+    <!-- Sidans unika huvudinnehåll -->
+    <main></main>
+
+    <!-- Sidfot -->
+    <footer>
+      <p>&copy; 2026 Laboration 1.2 - Grafisk Teknik</p>
+    </footer>
   </body>
 </html>

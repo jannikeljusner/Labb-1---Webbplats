@@ -3,28 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bildredigering</title>
-    <!-- 1. HEAD: Länka in CSS och lägg in favicon här -->
+    <title>Startsida</title>
+
+    <!-- Favicon för webbläsarfliken -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <!-- Länk till CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Header-->
-    <nav>
-      <ul>
-        <li><a href="index.html">Startsidan</a></li>
-        <li><a href="bildredigering.html">Bildredigering</a></li>
-        <li><a href="om-mig.html">Om mig</a></li>
-      </ul>
-    </nav>
-    - Lägg in SVG-logotypen. - Skapa navigering (meny) till de tre sidorna. -
-    Lägg in den stora genomskinliga header-bilden (Hero-image). -->
+    <!-- Sidhuvud med logotyp, navigering och hero-bild -->
+    <header>
+      <img src="images/logo.svg" alt="Webbplatsens logotyp" class="logo" />
 
-    <!-- 3. MAIN:
-     En container för Bild 1 (Original bredvid Redigerad + text som förklarar vad som gjorts).
+      <nav>
+        <ul>
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="redigering.html">Bildredigering</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+        </ul>
+      </nav>
 
-En container för Bild 2 (Original bredvid Redigerad + text som förklarar vad som gjorts).
+      <img
+        src="images/header.png"
+        alt="Dekorativ headerbild överst på sidan"
+        class="hero"
+      />
+    </header>
 
-En container för Bild 3 (Original bredvid Redigerad + text som förklarar vad som gjorts).
+    <!-- Sidans unika huvudinnehåll -->
+    <main></main>
 
- <!-- 4. FOOTER: Enkel sidfot -->
+    <!-- Sidfot -->
+    <footer>
+      <p>&copy; 2026 Laboration 1.2 - Grafisk Teknik</p>
+    </footer>
   </body>
 </html>
