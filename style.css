@@ -1,7 +1,9 @@
 /*1. GRUNDINSTÄLLNINGAR*/
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f7f4ef;
@@ -19,8 +21,8 @@ img {
 /* Begränsa maxbredden på sidans innehåll*/
 main {
   max-width: 1000px;
-  margin: 40px, auto;
-  padding: 0, 20px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 /*2. SIDHUVUD & HERO-BILD*/
@@ -45,19 +47,17 @@ header {
 
 /*3. NAVIGERINGSMENY*/
 nav {
-  background-color: #c5b5a4;
-  border-top: 1px solid #b5a493;
-  border-bottom: 1px solid #b5a493;
+  background-color: #d8cbbd;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #34495e;
+  background-color: #d8cbbd;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 nav li {
@@ -69,13 +69,13 @@ nav a {
   text-decoration: none;
   padding: 18px, 10px;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffffff
-  background-color: #b5a493;;
+  color: #8c7a6b;
 }
 
 /*4. LAYOUT & BILDSERIE*/
