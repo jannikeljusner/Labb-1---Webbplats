@@ -1,3 +1,35 @@
+/*1. GRUNDINSTÄLLNINGAR*/
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333333;
+  line-height: 1.4;
+}
+
+/* Se till att inga bilder går utanför */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Begränsa maxbredden på sidans innehåll*/
+main {
+  max-width: 1000px;
+  margin: 20px, auto;
+  padding: o, 20px;
+}
+
+/*2. SIDHUVUD & HERO-BILD*/
+
+/*3. NAVIGERINGSMENY*/
+
+/*4. LAYOUT & BILDSERIE*/
+
+/*FOOTER*/
 .hero-image {
   width: 100%;
   opacity: 0, 8;
