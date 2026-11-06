@@ -120,9 +120,10 @@ nav a:hover {
   min-width: 250px;
 }
 
-/* "Om mig"-sidan (Bild bredvid text) */
+/* "Om mig"-sidan (Bild under text) */
 .about-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-direction: row-reverse;
   gap: 30px;
@@ -140,6 +141,7 @@ nav a:hover {
 .about-text {
   flex: 1;
   min-width: 250px;
+  text-align: center;
 }
 
 /* SIDFOT */
@@ -161,4 +163,11 @@ footer {
 
   .about-content {
     flex-wrap: nowrap;
+    flex-direction: row-reverse; /* Bild till höger, text vänster */
+    justify-content: center;
   }
+
+  .about-text {
+    text-align: left; /* Vänsterjusterad text bredvid bilden på dator */
+  }
+}
